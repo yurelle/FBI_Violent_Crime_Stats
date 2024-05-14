@@ -176,6 +176,9 @@ SELECT *
 -- 
 
 -- Verify the state agency counts match between the robbery & aggravated assault tables.
+-- 
+-- The only discrepancy is for Colorado in 2019. But this discrepancy
+-- exists in the original .xls files on the FBI website.
 SELECT *
   FROM (
         SELECT rob.year,
